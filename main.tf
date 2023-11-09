@@ -1,10 +1,4 @@
-/*
-resource "azurerm_resource_group" "testRG" {
-name = "TestRG"
-location = "Australia Southeast"
-}
-*/
-resource "azurerm_resource_group" "notest" {
-name = "notest"
+resource "azurerm_resource_group" "RPA-RG" {
+name = "RPA-RG"
 location = "Australia Southeast"
 }
